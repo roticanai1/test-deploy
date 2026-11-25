@@ -13,14 +13,13 @@
 
 @layer base {
     html {
-        background: #fafaf9;
+        background: #101312;
     }
 
     body {
-        color: #17201d;
-        background:
-            radial-gradient(circle at top left, rgba(16, 185, 129, 0.035), transparent 24rem),
-            #fafaf9;
+        color: #f4f7f5;
+        background: #101312;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     button {
