@@ -12,8 +12,24 @@
 }
 
 @layer base {
+    html {
+        background: #fafaf9;
+    }
+
+    body {
+        color: #17201d;
+        background:
+            radial-gradient(circle at top left, rgba(16, 185, 129, 0.035), transparent 24rem),
+            #fafaf9;
+    }
+
     button {
         cursor: pointer;
+    }
+
+    ::selection {
+        background: #bbf7d0;
+        color: #14532d;
     }
 }
 
