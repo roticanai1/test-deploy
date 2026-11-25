@@ -57,6 +57,8 @@ pnpm dev
 bun dev
 ```
 
+On Windows with PowerShell execution policy blocking `npm.ps1`, use `npm.cmd run dev` instead.
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/(public)/page.js`. The page auto-updates as you edit the file.
